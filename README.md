@@ -9,7 +9,7 @@ Laravel Web3 API Client
 [![Monthly Downloads](https://poser.pugx.org/renoki-co/laravel-web3/d/monthly)](https://packagist.org/packages/renoki-co/laravel-web3)
 [![License](https://poser.pugx.org/renoki-co/laravel-web3/license)](https://packagist.org/packages/renoki-co/laravel-web3)
 
-Laravel Web3 is a Laravel SDK wrapper for the [Web3 PHP API client](https://github.com/web3-php/web3) that interacts with the Ethereum blockchain.
+Laravel Web3 is a Laravel SDK wrapper for the [Web3 PHP API client](https://github.com/web3p/web3.php) that interacts with the Ethereum blockchain.
 
 ## 🤝 Supporting
 

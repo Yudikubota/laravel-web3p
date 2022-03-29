@@ -25,7 +25,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "web3-php/web3": "dev-master"
+        "web3p/web3.php": "dev-master"
     },
     "autoload": {
         "psr-4": {

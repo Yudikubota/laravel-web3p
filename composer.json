@@ -23,9 +23,15 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:yudikubota/web3.git"
+        }
+    ],
     "require": {
         "php": "^8.0",
-        "web3p/web3.php": "dev-master"
+        "web3-php/web3": "dev-feature/eth_getLogs"
     },
     "autoload": {
         "psr-4": {

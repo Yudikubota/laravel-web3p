@@ -2,6 +2,8 @@
 
 namespace RenokiCo\LaravelWeb3;
 
+use Web3\Providers\HttpProvider;
+use Web3\RequestManagers\HttpRequestManager;
 use Web3\Web3 as Web3Client;
 
 /**
@@ -73,7 +75,7 @@ class Web3
     {
         $this->connection = $connection;
         $this->config = $config;
-        $this->client = new Web3Client($config['host']);
+        $this->client = new Web3Client(new HttpProvider(new HttpRequestManager($config['host'], $config['timeout'] ?? 10)));
     }
 
     /**

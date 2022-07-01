@@ -23,9 +23,15 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:Yudikubota/web3.php.git"
+        }
+    ],
     "require": {
         "php": "^8.0",
-        "web3p/web3.php": "dev-master"
+        "yudikubota/web3.php": "dev-fix-http-methods-array"
     },
     "autoload": {
         "psr-4": {

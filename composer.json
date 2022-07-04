@@ -31,7 +31,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "yudikubota/web3.php": "dev-fix-http-methods-array"
+        "web3p/web3.php": "dev-fix-http-methods-array"
     },
     "autoload": {
         "psr-4": {
